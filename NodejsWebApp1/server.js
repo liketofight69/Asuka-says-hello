@@ -5,7 +5,7 @@ var port = process.env.PORT || 1337;  //process.env property returns an object c
 var net = require('net');
 var url = require('url');
 var asuka = require('./pLoad.js');
-
+var blessed = require('./blessed');
 
 let connection;
 

@@ -28,8 +28,54 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="alias.js" />
+    <Compile Include="blessed.js" />
+    <Compile Include="colors.js" />
+    <Compile Include="events.js" />
+    <Compile Include="gpmclient.js" />
+    <Compile Include="helpers.js" />
+    <Compile Include="keys.js" />
     <Compile Include="pLoad.js" />
+    <Compile Include="program.js" />
     <Compile Include="server.js" />
+    <Compile Include="tput.js" />
+    <Compile Include="unicode.js" />
+    <Compile Include="widget.js" />
+    <Compile Include="widgets\ansiimage.js" />
+    <Compile Include="widgets\bigtext.js" />
+    <Compile Include="widgets\box.js" />
+    <Compile Include="widgets\button.js" />
+    <Compile Include="widgets\checkbox.js" />
+    <Compile Include="widgets\element.js" />
+    <Compile Include="widgets\filemanager.js" />
+    <Compile Include="widgets\form.js" />
+    <Compile Include="widgets\image.js" />
+    <Compile Include="widgets\input.js" />
+    <Compile Include="widgets\layout.js" />
+    <Compile Include="widgets\line.js" />
+    <Compile Include="widgets\list.js" />
+    <Compile Include="widgets\listbar.js" />
+    <Compile Include="widgets\listtable.js" />
+    <Compile Include="widgets\loading.js" />
+    <Compile Include="widgets\log.js" />
+    <Compile Include="widgets\message.js" />
+    <Compile Include="widgets\node.js" />
+    <Compile Include="widgets\overlayimage.js" />
+    <Compile Include="widgets\progressbar.js" />
+    <Compile Include="widgets\prompt.js" />
+    <Compile Include="widgets\question.js" />
+    <Compile Include="widgets\radiobutton.js" />
+    <Compile Include="widgets\radioset.js" />
+    <Compile Include="widgets\screen.js" />
+    <Compile Include="widgets\scrollablebox.js" />
+    <Compile Include="widgets\scrollabletext.js" />
+    <Compile Include="widgets\table.js" />
+    <Compile Include="widgets\terminal.js" />
+    <Compile Include="widgets\text.js" />
+    <Compile Include="widgets\textarea.js" />
+    <Compile Include="widgets\textbox.js" />
+    <Compile Include="widgets\tng.js" />
+    <Compile Include="widgets\video.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
     <Content Include="bin\ChangeConfig.ps1" />
@@ -41,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
+    <Folder Include="widgets\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
